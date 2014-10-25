@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCBF717219FA6B89007D839B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBF717119FA6B89007D839B /* Foundation.framework */; };
+		CCBF717419FA6B89007D839B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBF717319FA6B89007D839B /* CoreGraphics.framework */; };
+		CCBF717619FA6B89007D839B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBF717519FA6B89007D839B /* UIKit.framework */; };
+		CCBF717C19FA6B89007D839B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCBF717A19FA6B89007D839B /* InfoPlist.strings */; };
+		CCBF717E19FA6B89007D839B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBF717D19FA6B89007D839B /* main.m */; };
+		CCBF718219FA6B89007D839B /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBF718119FA6B89007D839B /* QYAppDelegate.m */; };
+		CCBF718519FA6B89007D839B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBF718319FA6B89007D839B /* Main.storyboard */; };
+		CCBF718819FA6B89007D839B /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBF718719FA6B89007D839B /* QYViewController.m */; };
+		CCBF718A19FA6B89007D839B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBF718919FA6B89007D839B /* Images.xcassets */; };
+		CCBF719119FA6B89007D839B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBF719019FA6B89007D839B /* XCTest.framework */; };
+		CCBF719219FA6B89007D839B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBF717119FA6B89007D839B /* Foundation.framework */; };
+		CCBF719319FA6B89007D839B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBF717519FA6B89007D839B /* UIKit.framework */; };
+		CCBF719B19FA6B89007D839B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCBF719919FA6B89007D839B /* InfoPlist.strings */; };
+		CCBF719D19FA6B89007D839B /* MYFocusViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBF719C19FA6B89007D839B /* MYFocusViewDemoTests.m */; };
+		CCBF71A819FA6BBC007D839B /* QYFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBF71A719FA6BBC007D839B /* QYFocusView.m */; };
+		CCBF71AD19FA7339007D839B /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCBF71A919FA7339007D839B /* 0.jpg */; };
+		CCBF71AE19FA7339007D839B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCBF71AA19FA7339007D839B /* 1.jpg */; };
+		CCBF71AF19FA7339007D839B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCBF71AB19FA7339007D839B /* 2.jpg */; };
+		CCBF71B019FA7339007D839B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCBF71AC19FA7339007D839B /* 3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCBF719419FA6B89007D839B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBF716619FA6B89007D839B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBF716D19FA6B89007D839B;
+			remoteInfo = MYFocusViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCBF716E19FA6B89007D839B /* MYFocusViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYFocusViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBF717119FA6B89007D839B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCBF717319FA6B89007D839B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCBF717519FA6B89007D839B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCBF717919FA6B89007D839B /* MYFocusViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MYFocusViewDemo-Info.plist"; sourceTree = "<group>"; };
+		CCBF717B19FA6B89007D839B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCBF717D19FA6B89007D839B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCBF717F19FA6B89007D839B /* MYFocusViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MYFocusViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CCBF718019FA6B89007D839B /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CCBF718119FA6B89007D839B /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CCBF718419FA6B89007D839B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCBF718619FA6B89007D839B /* QYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYViewController.h; sourceTree = "<group>"; };
+		CCBF718719FA6B89007D839B /* QYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
+		CCBF718919FA6B89007D839B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCBF718F19FA6B89007D839B /* MYFocusViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYFocusViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBF719019FA6B89007D839B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCBF719819FA6B89007D839B /* MYFocusViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MYFocusViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CCBF719A19FA6B89007D839B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCBF719C19FA6B89007D839B /* MYFocusViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYFocusViewDemoTests.m; sourceTree = "<group>"; };
+		CCBF71A619FA6BBC007D839B /* QYFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYFocusView.h; sourceTree = "<group>"; };
+		CCBF71A719FA6BBC007D839B /* QYFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYFocusView.m; sourceTree = "<group>"; };
+		CCBF71A919FA7339007D839B /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		CCBF71AA19FA7339007D839B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CCBF71AB19FA7339007D839B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CCBF71AC19FA7339007D839B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCBF716B19FA6B89007D839B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBF717419FA6B89007D839B /* CoreGraphics.framework in Frameworks */,
+				CCBF717619FA6B89007D839B /* UIKit.framework in Frameworks */,
+				CCBF717219FA6B89007D839B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBF718C19FA6B89007D839B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBF719119FA6B89007D839B /* XCTest.framework in Frameworks */,
+				CCBF719319FA6B89007D839B /* UIKit.framework in Frameworks */,
+				CCBF719219FA6B89007D839B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCBF716519FA6B89007D839B = {
+			isa = PBXGroup;
+			children = (
+				CCBF717719FA6B89007D839B /* MYFocusViewDemo */,
+				CCBF719619FA6B89007D839B /* MYFocusViewDemoTests */,
+				CCBF717019FA6B89007D839B /* Frameworks */,
+				CCBF716F19FA6B89007D839B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCBF716F19FA6B89007D839B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF716E19FA6B89007D839B /* MYFocusViewDemo.app */,
+				CCBF718F19FA6B89007D839B /* MYFocusViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBF717019FA6B89007D839B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF717119FA6B89007D839B /* Foundation.framework */,
+				CCBF717319FA6B89007D839B /* CoreGraphics.framework */,
+				CCBF717519FA6B89007D839B /* UIKit.framework */,
+				CCBF719019FA6B89007D839B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCBF717719FA6B89007D839B /* MYFocusViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF718019FA6B89007D839B /* QYAppDelegate.h */,
+				CCBF718119FA6B89007D839B /* QYAppDelegate.m */,
+				CCBF718319FA6B89007D839B /* Main.storyboard */,
+				CCBF718619FA6B89007D839B /* QYViewController.h */,
+				CCBF718719FA6B89007D839B /* QYViewController.m */,
+				CCBF71A619FA6BBC007D839B /* QYFocusView.h */,
+				CCBF71A719FA6BBC007D839B /* QYFocusView.m */,
+				CCBF718919FA6B89007D839B /* Images.xcassets */,
+				CCBF717819FA6B89007D839B /* Supporting Files */,
+			);
+			path = MYFocusViewDemo;
+			sourceTree = "<group>";
+		};
+		CCBF717819FA6B89007D839B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF71A919FA7339007D839B /* 0.jpg */,
+				CCBF71AA19FA7339007D839B /* 1.jpg */,
+				CCBF71AB19FA7339007D839B /* 2.jpg */,
+				CCBF71AC19FA7339007D839B /* 3.jpg */,
+				CCBF717919FA6B89007D839B /* MYFocusViewDemo-Info.plist */,
+				CCBF717A19FA6B89007D839B /* InfoPlist.strings */,
+				CCBF717D19FA6B89007D839B /* main.m */,
+				CCBF717F19FA6B89007D839B /* MYFocusViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCBF719619FA6B89007D839B /* MYFocusViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF719C19FA6B89007D839B /* MYFocusViewDemoTests.m */,
+				CCBF719719FA6B89007D839B /* Supporting Files */,
+			);
+			path = MYFocusViewDemoTests;
+			sourceTree = "<group>";
+		};
+		CCBF719719FA6B89007D839B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF719819FA6B89007D839B /* MYFocusViewDemoTests-Info.plist */,
+				CCBF719919FA6B89007D839B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCBF716D19FA6B89007D839B /* MYFocusViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBF71A019FA6B89007D839B /* Build configuration list for PBXNativeTarget "MYFocusViewDemo" */;
+			buildPhases = (
+				CCBF716A19FA6B89007D839B /* Sources */,
+				CCBF716B19FA6B89007D839B /* Frameworks */,
+				CCBF716C19FA6B89007D839B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYFocusViewDemo;
+			productName = MYFocusViewDemo;
+			productReference = CCBF716E19FA6B89007D839B /* MYFocusViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCBF718E19FA6B89007D839B /* MYFocusViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBF71A319FA6B89007D839B /* Build configuration list for PBXNativeTarget "MYFocusViewDemoTests" */;
+			buildPhases = (
+				CCBF718B19FA6B89007D839B /* Sources */,
+				CCBF718C19FA6B89007D839B /* Frameworks */,
+				CCBF718D19FA6B89007D839B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBF719519FA6B89007D839B /* PBXTargetDependency */,
+			);
+			name = MYFocusViewDemoTests;
+			productName = MYFocusViewDemoTests;
+			productReference = CCBF718F19FA6B89007D839B /* MYFocusViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCBF716619FA6B89007D839B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hnqingyun;
+				TargetAttributes = {
+					CCBF718E19FA6B89007D839B = {
+						TestTargetID = CCBF716D19FA6B89007D839B;
+					};
+				};
+			};
+			buildConfigurationList = CCBF716919FA6B89007D839B /* Build configuration list for PBXProject "MYFocusViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCBF716519FA6B89007D839B;
+			productRefGroup = CCBF716F19FA6B89007D839B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBF716D19FA6B89007D839B /* MYFocusViewDemo */,
+				CCBF718E19FA6B89007D839B /* MYFocusViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCBF716C19FA6B89007D839B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBF71AF19FA7339007D839B /* 2.jpg in Resources */,
+				CCBF71AD19FA7339007D839B /* 0.jpg in Resources */,
+				CCBF718A19FA6B89007D839B /* Images.xcassets in Resources */,
+				CCBF717C19FA6B89007D839B /* InfoPlist.strings in Resources */,
+				CCBF718519FA6B89007D839B /* Main.storyboard in Resources */,
+				CCBF71B019FA7339007D839B /* 3.jpg in Resources */,
+				CCBF71AE19FA7339007D839B /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBF718D19FA6B89007D839B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBF719B19FA6B89007D839B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCBF716A19FA6B89007D839B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBF718219FA6B89007D839B /* QYAppDelegate.m in Sources */,
+				CCBF71A819FA6BBC007D839B /* QYFocusView.m in Sources */,
+				CCBF717E19FA6B89007D839B /* main.m in Sources */,
+				CCBF718819FA6B89007D839B /* QYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBF718B19FA6B89007D839B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBF719D19FA6B89007D839B /* MYFocusViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCBF719519FA6B89007D839B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBF716D19FA6B89007D839B /* MYFocusViewDemo */;
+			targetProxy = CCBF719419FA6B89007D839B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCBF717A19FA6B89007D839B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBF717B19FA6B89007D839B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCBF718319FA6B89007D839B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBF718419FA6B89007D839B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCBF719919FA6B89007D839B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBF719A19FA6B89007D839B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCBF719E19FA6B89007D839B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCBF719F19FA6B89007D839B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCBF71A119FA6B89007D839B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYFocusViewDemo/MYFocusViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MYFocusViewDemo/MYFocusViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCBF71A219FA6B89007D839B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYFocusViewDemo/MYFocusViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MYFocusViewDemo/MYFocusViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCBF71A419FA6B89007D839B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MYFocusViewDemo.app/MYFocusViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYFocusViewDemo/MYFocusViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MYFocusViewDemoTests/MYFocusViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCBF71A519FA6B89007D839B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MYFocusViewDemo.app/MYFocusViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYFocusViewDemo/MYFocusViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MYFocusViewDemoTests/MYFocusViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCBF716919FA6B89007D839B /* Build configuration list for PBXProject "MYFocusViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBF719E19FA6B89007D839B /* Debug */,
+				CCBF719F19FA6B89007D839B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBF71A019FA6B89007D839B /* Build configuration list for PBXNativeTarget "MYFocusViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBF71A119FA6B89007D839B /* Debug */,
+				CCBF71A219FA6B89007D839B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCBF71A319FA6B89007D839B /* Build configuration list for PBXNativeTarget "MYFocusViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBF71A419FA6B89007D839B /* Debug */,
+				CCBF71A519FA6B89007D839B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCBF716619FA6B89007D839B /* Project object */;
+}
